@@ -1,0 +1,8 @@
+﻿<root>
+		<physics_material texture_path="Material.002"	friction="0.8" restitution="0.5" />
+		<physics_material texture_path="Material.001"	friction="0.8" restitution="0.5" />
+		<physics_material texture_path=Material.002_sam_gravel.jpg" friction="0.8" restitution="0.5" />
+<physics_material texture_path="Material.003"	friction="0.8" restitution="0.5" />
+<physics_material texture_path="Material.004"	friction="0.8" restitution="0.5" />
+</root>
+

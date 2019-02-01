@@ -1,0 +1,4 @@
+while ~/programming/critterthing-beta14_exp/src/critterding --profile profiles/mutate_killat100.pro
+do
+    :
+done

@@ -1,0 +1,6 @@
+﻿<root>
+		<physics_material texture_path="Material.007"	friction="3" restitution="0" />
+		<physics_material texture_path="Material.008"	friction="0.5" restitution="0.5" />
+		<physics_material texture_path="Material.009"	friction="0.65" restitution="0.7" />
+</root>
+

@@ -1,0 +1,22 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Material.004
+Ns 125.490196
+Ka 0.000000 0.000000 0.000000
+Kd 0.70703125 0.58203125 0.39453125
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.000000
+illum 1
+
+newmtl Material.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 0.0
+illum 2
+map_Kd ../../pixmaps/terraria_sand2.jpg
+map_bump ../../pixmaps/terraria_sand2_normal.jpg

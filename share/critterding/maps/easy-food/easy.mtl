@@ -1,0 +1,33 @@
+# Blender MTL File: 'divider.blend'
+# Material Count: 3
+
+newmtl Material.007
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd invisable.png
+
+
+newmtl Material.008
+Ns 121.568627
+Ka 0.000000 0.000000 0.000000
+Kd 0.565625 0.465625 0.315625
+Ks 0.050000 0.050000 0.050000
+Ni 1.000000
+d 0.000000
+illum 2
+
+newmtl Material.009
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd terraria_sand2.jpg
+map_bump terraria_sand2_normal.jpg

@@ -1,0 +1,21 @@
+# Blender MTL File: 'sphere shape5.blend'
+# Material Count: 2
+
+newmtl Material.001
+Ns 60.784314
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.957836 0.970791
+Ks 0.090909 0.090909 0.090909
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd blue.png
+
+newmtl Material.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1

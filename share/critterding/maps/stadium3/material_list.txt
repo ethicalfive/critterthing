@@ -1,0 +1,7 @@
+material.000 - rocks
+material.001 - peachstone
+material.002 - stadium1
+material.003 - stadium2
+material.004 - ice
+material.005 - walls
+material.012 - ramp

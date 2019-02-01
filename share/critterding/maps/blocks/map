@@ -1,0 +1,5 @@
+maptype = obj 
+obj = blocks.obj
+scale = 6.5 10.0 3.5
+position = 130 0 70
+rotation = 0 0 0
