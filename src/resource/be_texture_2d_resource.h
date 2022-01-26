@@ -12,7 +12,16 @@
 // #include <QtGui>
 // #include <QGLWidget>
 #include <QGLWidget>
-
+#include <QWidget>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QLabel>
+#include <QCheckBox>
+#include <QGroupBox>
+#include <QMdiSubWindow>
+#include <QMdiArea>
 
 class BeTexture2DResource
 {

@@ -6,10 +6,12 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <boost/shared_ptr.hpp>
 #include "common/be_parser.h"
 #include "filesystem/be_dir.h"
 #include "kernel/be_log.h"
 #include "filesystem/be_filesystem.h"
+
 
 class Logbuffer;
 

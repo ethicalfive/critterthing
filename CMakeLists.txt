@@ -178,17 +178,27 @@ IF (UNIX)
 # 	MESSAGE("Boost NOT FOUND")
 # 	ENDIF (Boost_FOUND)
 
-
-	find_package(Qt4 4.7 COMPONENTS QtCore QtGui QtOpenGL QtDeclarative REQUIRED )
-	IF (QT_FOUND)
-		MESSAGE("QT 4.7 FOUND")
-		INCLUDE( ${QT_USE_FILE} ) # macro
-		MESSAGE(${QT_LIBRARIES})
-		SET(bengine_LIBS ${bengine_LIBS} ${QT_LIBRARIES}) 
-	ELSE (QT_FOUND)
-		MESSAGE(FATAL_ERROR "QT NOT FOUND")
-	ENDIF (QT_FOUND)
-
+#
+#	find_package(Qt5 COMPONENTS Core Gui Widgets Quick REQUIRED )
+#	IF (Qt5_FIND_REQUIRED)
+#		MESSAGE("QT 5 FOUND")
+#		INCLUDE( ${QT_USE_FILE} ) # macro
+#		MESSAGE(${QT_LIBRARIES})
+#		SET(bengine_LIBS ${bengine_LIBS} ${QT_LIBRARIES}) 
+#	ELSE (Qt5_FIND_REQUIRED)
+#		MESSAGE(FATAL_ERROR "QT NOT FOUND")
+#	ENDIF (Qt5_FIND_REQUIRED)
+#
+	 
+	SET(CMAKE_AUTOMOC ON)
+    #find_package(Qt5Core)
+    FIND_PACKAGE(Qt5Widgets REQUIRED)
+    FIND_PACKAGE(Qt5OpenGL REQUIRED)
+    MESSAGE("QT 5 FOUND")
+    SET(bengine_LIBS ${bengine_LIBS} ${Qt5Widgets_LIBRARIES} ${Qt5OpenGL_LIBRARIES}) 
+    add_definitions(-DQT_STATIC)
+    
+    
 
 		SET(Boost_USE_MULTITHREAD ON) #set a flag
 # 		FIND_PACKAGE(Boost)
